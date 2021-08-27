@@ -6,7 +6,7 @@
 
 
 class CalBMI:
-    def main():
+    def _init_(get_height, get_weight, body_mass_index):
     bmi()
     
 
