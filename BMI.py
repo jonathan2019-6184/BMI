@@ -5,7 +5,8 @@
 #Implement a Python program that prompts a user for their height and weight. Height  should be entered as inches and weight should be entered in pounds. Perform the  calculation in units of kilograms and meters as shown in the chart. Compare the result to  the information in the chart. Use class(es) in your program design. 
 
 
-def main():
+class CalBMI:
+    def main():
     bmi()
     
 
@@ -28,7 +29,7 @@ get_height = float(input("Please enter your height in inches. "))
 get_weight = float(input("Please enter your weight in pounds. "))
 
 #user will enter there information above and we will then calcualte.
-body_mass_index = (get_weight * 703) / (get_height ** 2)
+body_mass_index = get_weight / (get_height/100)**2
 
 
 
