@@ -4,7 +4,7 @@
 #BMI = mass / height2 
 #Implement a Python program that prompts a user for their height and weight. Height  should be entered as inches and weight should be entered in pounds. Perform the  calculation in units of kilograms and meters as shown in the chart. Compare the result to  the information in the chart. Use class(es) in your program design. 
 
-
+f = open("test.txt",'w')
 class BMI:
 
     print("Welcome to my BMI calculator!")
